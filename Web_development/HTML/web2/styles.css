@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family:  Tahoma;
+}
+label{
+    display: block;
+}
+h1,p{
+    text-align: center;
+}
+form{
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #152838;
+}
+input,textarea,select{
+    width: 100%;
+    min-height: 2em;
+    margin: 10px 0 0 0;
+}
+.inline{
+    width:unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}

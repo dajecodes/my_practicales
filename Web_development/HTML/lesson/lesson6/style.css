@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 1.25rem;
+}
+input,button{
+ font-size: inherit;
+}
+p{
+    /* text-decoration: none; */
+    /* text-transform: capitalize; */
+    text-align: justify;
+    text-indent: 4rem;
+    line-height: 1.5;
+    word-spacing: .5rem;
+    letter-spacing: 0.05rem;
+    /* font-weight: bolder; */
+    font-family: 'Roboto', sans-serif;
+font-family: 'Shantell Sans', cursive;
+
+}

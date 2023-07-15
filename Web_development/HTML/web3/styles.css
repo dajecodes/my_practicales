@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+}
+.page{
+    width:80%;
+    padding:10px;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 360px;
+}
+.col2{
+    width: 48%;
+    max-width: 450px;
+    /* margin: 0; */
+    min-width: 360px;
+    display: inline-block;
+    
+    
+    
+}
+.col4{
+    width: 25%;
+    margin: 0;
+    min-width: 180px;
+}
+nav{
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
+}
+.hero{
+    margin:0;
+    padding:50px 30px;
+}
+h1,h2,h3,h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero h1{    
+    font-size: 52px;
+}
+.hero h4{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.hero img{
+    width: 20px;;
+    vertical-align: middle;
+}
+.hero p{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.contact{
+    margin-bottom: 50px;
+    align-content: center;
+    
+}
+.img_left{
+   width:100%; 
+   vertical-align: middle;
+   border-radius: 40px;
+}
+
+
+.btn{
+    border: 2px solid red;
+    padding: 15px;
+    border-radius: 33px;
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+    display:inline-block;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}

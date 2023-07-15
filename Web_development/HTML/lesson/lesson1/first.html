@@ -1,0 +1,133 @@
+<!-- The Structure of HTML Document -->
+<!-- 
+    Before going to the HTML structure will discuss HTML elements a little.
+    All html documents conteins elements.
+    The HTML elements tell the browser how to display the contents
+
+    <tag_name> content </tag_name>
+
+ -->
+<!-- This tag tells the browser this is an HTML5 document. -->
+<!DOCTYPE html>
+<!--This element is the root element of an HTML Page, attribute lang declares the language of the Web page -->
+<html lang="en">    
+    <!-- This is the head area, the content of this element is meta-information about the page. Which are use full for browser and search engines -->
+    <head><!-- Head Openning tag -->
+        <!--The title element content  is shown in the browser's title bar  -->
+        <title>Basic HTML Structure</title>
+        
+    </head><!-- Head clossing tag -->
+    <!-- This is the Body area which contains all the visible contents -->
+    <body>
+        <!-- HTML Headings  h1 => h6 depending on priority -->
+        <h1>Hello world!</h1><!-- only one h1 for per page -->
+        <h2>Hello world!</h2>
+        <h3>Hello world!</h3>
+        <h4>Hello world!</h4>
+        <h5>Hello world!</h5>
+        <h6>Hello world!</h6>
+
+        <!--head tag attributes  -->
+        <h1 align="center">Hello World !</h1>
+
+<!-- Paragraphs tag  -->
+        <p align="center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae omnis, eveniet sapiente quaerat veritatis eligendi minima, consequatur velit, quis voluptatum vel unde. Nisi error officiis accusantium totam nobis dolores maxime.
+        </p>
+
+        <p>
+            This is paragrhp tag with lorem text<br>
+            hr element is used to separate content by horizontzl rule
+            <hr>
+            
+            <b> This is bold text usind b tag</b>Lorem ipsum dolor sit <strong>This is strong tag for important text</strong> consectetur adipisicing elit. Excepturi dignissimos
+            <i>This is i tag for italic letters</i> necessitatibus minus consectetur! <em>this is em tag  for Emphasized text</em> Hic enim quo corrupti praesentium aut architecto 
+            repellat, doloribus, <mark>This is mark tag </mark> expedita alias tenetur sapiente fugiat dignissimos sint voluptatem?
+            <small>This is small tag for small text</small> ipsum, dolor sit amet consectetur adipisicing elit. <del>This is del tag for delete text</del> Laboriosam cumque labore quasi porro
+            iusto <ins>This is ins tag for inserted text</ins> dicta facere nulla corrupti dolorem,<sub>This is sub tag for Subscript text</sub> voluptates et eveniet possimus neque ut fugiat, illum
+            asperiores eius natus.<sup>Tih is sup tag for Superscript text</sup>
+        
+        </p>
+        
+
+        <!-- anchor tag -->
+        <a href="https://www.youtube.com">This is a link to youtube</a>
+
+        <!-- image tag -->
+        <img src="tom&jerry.jpg" alt="W3Schools.com" width="104" height="142">
+
+          <!-- unorderd list 
+        types:-disc,none,circle,square
+    -->
+
+    <ul type="none">
+        <li>java</li>
+        <li>Python</li>
+        <li>c++</li>
+        <li>HTML</li>
+    </ul>
+<!-- orderd list
+    types:-1,A,a,I,i
+    start:- dtarting points
+-->
+    <ol type="I" start="3" >
+        <li>java</li> 
+        <li>Python</li>
+        <li>C++</li>
+        <li>HTML</li>
+    </ol>
+    <!-- discription list
+        dt :- detail tad
+        dd  :- detail description
+    -->
+    <dl type="1">
+        <dt>coffe</dt>
+        <dd>drink</dd>
+        <dt>coffe</dt>
+        <dd>drink</dd>
+    </dl>
+
+
+
+
+     <!-- tables -->
+     <table border="1px" cellspacing="0" cellpadding="10px">
+        <caption>First Table</caption>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nimal</td>
+                <td>24</td>
+                <td>ranmalgama</td>
+            </tr>
+            <tr>
+                <td>Nimal</td>
+                <td>24</td>
+                <td>ranmalgama</td>
+            </tr>
+            <tr>
+                <td>Nimal</td>
+                <td>24</td>
+                <td>ranmalgama</td>
+            </tr>
+        </tbody> 
+        <tfoot>
+            <tr>
+                <td colspan="2">total</td>
+                
+                <td>2500/-</td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+
+    </body>
+</html>

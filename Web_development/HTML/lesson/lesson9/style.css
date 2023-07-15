@@ -1,0 +1,53 @@
+/* h1:hover{
+    background-color: gold;
+}
+input:checked{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+p:first-child{
+    background-color: blue;
+}
+p:last-child{
+    background-color: green;
+}
+p:nth-child(3){
+    background-color: aqua;
+} */
+/* .h{
+    display: none;
+}
+.d:hover .h{
+    display: block;
+    background-color: aqua;
+} */
+
+/* p::after{
+    content: " ";
+}
+p:hover::after{
+    content: " hover";
+    background-color: wheat;
+    display: block;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 2rem;
+} */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: go;
+    animation-duration: 4s;
+
+}
+@keyframes go{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 300px;
+    }
+}

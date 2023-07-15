@@ -1,0 +1,57 @@
+/* 
+*selectors
+            element
+            class
+            id
+
+
+*Colors:
+        Names
+        RGB
+        RGBA
+        Hex
+*units
+        px
+        %
+        rem
+        em
+*border
+        style
+        width
+        color
+
+*Margin
+*padding
+*boxsizing
+*text
+*outline
+
+
+       
+
+*/
+html{
+    font-size: 1.5rem;
+}
+body{
+    background-color: #9CD69F;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    background-color:#003F13;
+    color:#FFFBCE
+    
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+nav li{
+    padding: 5px;
+    margin: auto;
+}

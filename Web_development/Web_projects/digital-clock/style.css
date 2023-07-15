@@ -1,0 +1,62 @@
+body{
+    /* remove default margin */
+    margin: 0;
+    font-family: sans-serif;
+    /* bring every thing to the center */
+    display: flex;
+    /* get every thing to next each other */
+    flex-direction:column;
+    /* bring every thing to center */
+    align-items: center;
+    /* set body height to 100% from device height */
+    height: 100vh;
+    /* bring every thing to middle */
+    justify-content:center ;
+    background: url("background.jpg");
+    background-size:cover;
+
+}
+h2{
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: blueviolet;
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    /* centre horizontaly */
+    justify-content: center;
+    /* center verticaly */
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: blue;
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    height: 30px;
+    width: 60px;
+    font-size: 20px;
+    background-color: green;
+}
